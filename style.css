@@ -1,0 +1,23 @@
+/* .left-chatter{ */
+    /* box-sizing: border-box; */
+    /* margin-left: 50%; */
+/* } */
+
+@media only screen and (max-width: 768px) {
+.inner-container{
+    display: block;
+
+}
+.left-chatter,
+.right-notif {
+  width: 100%; /* Set width to 100% for smaller screens */
+}
+header{
+    display: block;
+}
+.container{
+    display: block;
+
+}
+
+}
